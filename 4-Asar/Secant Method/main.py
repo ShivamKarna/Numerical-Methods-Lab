@@ -112,7 +112,7 @@ else:
     plt.legend(loc="upper left")
     plt.xlabel("x")
     plt.ylabel("y")
-    plt.title("Bisection Method")
+    plt.title("Secant Method")
 
     for j in range(len(Mid_Point)):
         plt.text(Mid_Point[j], 0, str(j + 1))
