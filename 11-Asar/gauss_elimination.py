@@ -1,4 +1,6 @@
 # Gauss Elimintaion with partial pivoting
+import sys
+
 import numpy as np
 
 np.set_printoptions(suppress=True, precision=4)
@@ -27,7 +29,7 @@ for i in range(n):
 
     if a[i, i] == 0:
         print("System is inconsistent !")
-        exit(0)
+        sys.exit()
 
     for j in range(i + 1, n):
         factor = a[j, i] / a[i, i]
