@@ -1,5 +1,5 @@
 """
-Gauss Seidal
+Gauss Seidal technique of solving system of linear equations
 """
 
 import sys
