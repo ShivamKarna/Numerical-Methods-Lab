@@ -8,7 +8,7 @@ import pandas as pd
 
 np.set_printoptions(suppress=True, precision=4)
 
-n = int(input("Enter no. of elements :"))
+n = int(input("Enter no. of elements : "))
 
 a = []
 
