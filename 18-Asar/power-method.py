@@ -34,7 +34,7 @@ itr = 1
 while itr <= N:
     y = np.dot(a, x)
 
-    max_ev = max(abs(y))
+    max_ev = np.max(np.abs(y))
 
     x = y / max_ev
 
