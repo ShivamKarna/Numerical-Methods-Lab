@@ -22,7 +22,7 @@ for i in range(n):
     bp = 1
     for j in range(n):
         if j != i:
-            bp = bp * (x - X[i]) / (X[i] - X[j])
+            bp = bp * (x - X[j]) / (X[i] - X[j])
     lp = lp + Y[i] * bp
 lag_poly = sp.nsimplify(lp.evalf(), rational=True, tolerance=1e-10)
 lag_poly1 = sp.simplify(lag_poly)
